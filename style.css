@@ -109,7 +109,9 @@ h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: lightgrey;
   background-color: #f6f6f6;
+  background-color: lightgrey;
   padding: 40px 40px;
   margin-bottom: 50px;
 }
@@ -155,7 +157,9 @@ h1 {
 .function__choice {
   margin: 0 20px 20px 40px;
   font-weight: bold;
+  background-color: lightgray;
   background-color: #F6F6F6;
+  background-color: lightgray;
   padding: 30px 50px 30px 18px;
   margin-left: 20px;
   text-align: center;
@@ -317,7 +321,7 @@ h1 {
 }
 
 .card {
-  background-color: #F6F6F6;
+  background-color: grey;
   padding: 36px 21px;
   margin-top: -27px;
   border-top-left-radius: 30px;
@@ -506,30 +510,7 @@ h1 {
   white-space: nowrap;
 }
 
-/*Bouton Commander*/
-.bouton__commander {
-  padding: 30px 0 80px 0;
-  text-align: center;
-  background-color: #F6F6F6;
-}
-.bouton__commander--pink {
-  background-color: #9356DC;
-  padding: 15px 50px;
-  border-radius: 30px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  color: #FFF;
-  font-weight: normal;
-  font-size: 18px;
-  margin: 0 auto;
-  background-image: linear-gradient(#FF79DA, #9356DC);
-  transition: background-color 250ms;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-}
-.bouton__commander--pink:hover {
-  opacity: 0.8;
-  box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
-}
+
 
 /*Header*/
 header {
@@ -572,6 +553,8 @@ footer {
   padding: 25px 0px;
   max-width: 100%;
   min-width: 320px;
+  text-align: justify;
+  text-align: justify;
 }
 footer h3 {
   margin: 0 0 10px 20px;
@@ -583,7 +566,9 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+  color: grey;
   color: #FFF;
+  color: grey;
 }
 footer .footer__logo {
   font-family: "Shrikhand", cursive;
